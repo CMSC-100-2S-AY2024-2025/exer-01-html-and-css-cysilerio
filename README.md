@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/khVSkjrs)
 
-FULL NAME:
+Full Name:
     Crizzele Denisse Yamsuan Silerio
 
 Degree Program:
@@ -17,4 +17,4 @@ Steps on how to create GitHub page:
 
 What are your key takeaways from this exercise:
     Avoid cramming exercises that require creativity
-    It's helpful to not be afraid of trying new things in programming since undo and redo is possible, there's nothing to lose unless your program crashes!
+    It's helpful to not be afraid of trying new things in programming since undo and redo is possible. In other words, there is beauty in exploring.
