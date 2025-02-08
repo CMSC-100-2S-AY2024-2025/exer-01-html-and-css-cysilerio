@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1581362716668-90cdec6b4882?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('https://i.pinimg.com/736x/5e/02/77/5e02775fa00e998bdf7aff634efdf409.jpg');    
 }
 
 .container {
@@ -10,7 +10,18 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-    background-color: whitesmoke;
+    background-color: lightgray;
+}
+
+#project1title, #project2title {
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+#project1description, #project2description {
+    padding-left: 36px;
 }
 
 #projects {
@@ -23,8 +34,9 @@ body {
     flex-direction: column;
 }
 
-#previousprojects, #project1title, #project2title {
+#previousprojects {
     padding-left: 40px;
+    font-weight: bold;
 }
 
 hr {
@@ -43,8 +55,9 @@ hr {
     font-family: monospace;
 }
 
-#skillheader, #aboutheader {
+#skillheader, #aboutheader, #contactsheader{
     font-size: 20px;
+    font-style: italic;
 }
 .skillsetcontainer {
     display: block;
@@ -56,7 +69,6 @@ hr {
     align-items: flex-start;
     margin-top: 8px;
     margin-left: 40px;
-    background-color: whitesmoke;
 }
 
 .imgcontainer {
@@ -77,6 +89,7 @@ hr {
 
 #name {
     font-size: 30px;
+    font-weight: bold;
 }
 
 #previousprojects {
