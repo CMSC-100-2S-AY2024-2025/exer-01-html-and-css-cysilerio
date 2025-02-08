@@ -4,18 +4,92 @@ body {
 
 .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    align-items: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
     background-color: whitesmoke;
 }
 
-#footer {
+#projects {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#previousprojects, #project1title, #project2title {
+    padding-left: 40px;
+}
+
+hr {
+    width: 870px;
+    border: 2px solid black;
+    justify-content: left;
+}
+
+#hr2 {
+    width: 1537px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.text {
+    font-family: monospace;
+}
+
+#skillheader, #aboutheader {
+    font-size: 20px;
+}
+.skillsetcontainer {
+    display: block;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-left: 40px;
     background-color: whitesmoke;
-    flex-wrap: flex-end;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.project1 {
+    height: 280px;
+    width: 345px;
+}
+
+.project2 {
+    height: 280px;
+    width: 320px;
+}
+
+#name {
+    font-size: 30px;
+}
+
+#previousprojects {
+    font-size: 30px;
 }
 
 img {
-    padding-top: 25px;
-    align-self: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.personalphoto {
+    height: 500px;
+    width: 650px;
 }
